@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/PrincipalStyles.css
+    ">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- barra de navegação -->
+    <nav class="navbar navbar-dark navbar-expand-sm sticky-top" style="height: 80px; background-color: #000000;">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand d-flex align-items-center">
+                <img src="./img/lambo-icon.jpg" alt="Logo da Lamborghini" id="lambo-icon" style="width: auto; height: 3em;">
+                <p class="align-items-center mb-0 ms-2" style="margin: 0;">Lamborghini</p>
+            </a>            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar"><span class="bi-list"></span></button>
+            <div class="collapse navbar-collapse" id="menuNavbar">
+                <div class="navbar-nav ms-auto">
+                    <a href="../main/mainLambo.html" class="nav-item nav-link active">Main</a>
+                    <a href="../projeto lambo/cars/carsGridnLambo.html" class="nav-item nav-link">Cars</a>
+                    <a href="../projeto lambo/Contact/contactLambo.html" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+   <!-- carousel -->
+   <div id="first-carousel" class="container-fluid carousel slide m-0 p-0">
+    <div class="carousel slide" data-bs-ride="carousel" id="ads">
+        <div class="carousel-indicators">
+            <button class="active" data-bs-target="#ads" data-bs-slide-to="0"></button>
+            <button class="" data-bs-target="#ads" data-bs-slide-to="1"></button>
+            <button class="" data-bs-target="#ads" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" id="carousel-principal-img1">
+                <img src="./img/lamborghini-urus-2018.jpeg" alt="" class="d-block w-100">
+                <div class="carousel-caption d-done d-md-block position-absolute top-0 start-50 translate-middle-x" id="card-1">
+                    <h2 class="text-center mb-5 pb-3">Lamborghini Urus 2018</h2>
+                    <p class="text-start">
+                        <br>
+                        Engine: 4.0-liter V8 twin-turbo
+                        <br>
+                        Power: Up to 650 Hp
+                        <br>
+                        Acceleration 0-100 km/h: Approximately 3.6 seconds
+                        <br>
+                        Traction: All-wheel drive
+                        <br>
+                        Passenger Capacity: Up to 5
+                        <br>
+                        Interior: Luxurious and customizable, with options for leather, carbon fiber, and Alcantara finishes.
+                    </p>
+                    <button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Contact</span>
+                      </button>
+                </div>
+            </div>
+            <div class="carousel-item active" id="carousel-principal-img1">
+                <img src="./img/lamborghini-huracan-evo-rwd.jpeg" alt="" class="d-block w-100">
+                <div class="carousel-caption d-done d-md-block position-absolute top-0 start-50 translate-middle-x" id="card-1">
+                    <h2 class="text-center mb-5 pb-3">Lamborghini Evo RWD</h2>
+                    <p class="text-start">
+                        <br>
+                        Engine: 5.2-liter naturally aspirated V10
+                        <br>
+                        Power: 610 Hp
+                        <br>
+                        Acceleration 0-100 km/h: Approximately 3.3 seconds
+                        <br>
+                        Traction: Rear-wheel drive
+                        <br>
+                        Transmission: 7-speed automatic
+                        <br>
+                        Suspension: Adaptive sport suspension
+                    </p>
+                    <button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Contact</span>
+                      </button>
+                </div>
+            </div>
+            <div class="carousel-item active" id="carousel-principal-img1">
+                <img src="./img/lamborghini-aventador-svj.jpeg" alt="" class="d-block w-100">
+                <div class="carousel-caption d-done d-md-block position-absolute top-0 start-50 translate-middle-x" id="card-1">
+                    <h2 class="text-center mb-5 pb-3">Lamborghini Aventador SVJ</h2>
+                    <p class="text-start">
+                        Engine: 6.5-liter naturally aspirated V12
+                        <br>
+                        Power: 770 Hp
+                        <br>
+                        Acceleration 0-100 km/h: Approximately 2.8 seconds
+                        <br>
+                        Top Speed: Over 350 km/h
+                        <br>
+                        Suspension: Dynamic and adjustable
+                        <br>
+                        Design: Advanced aerodynamics with active elements
+                        <br>
+                        Technology: All-wheel drive system and four-wheel steering system
+                    </p>
+                    <button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Contact</span>
+                      </button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#first-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Prev</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#first-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Prev</span>
+        </button>
+    </div>
+    </div>
+<!-- about area -->
+<div id="about-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="main-title mt-5 pb-5">About Lamborghini</h3>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/lamborghini-agency.jpg" alt="lamborghini-enterprise" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h3 class="about-title mb-5">A manufacturer that thinks about the future</h3>
+                <ul class="about-list">
+                <li class="bi-bookmark-check">Exceptional performance</li>
+                <li class="bi-bookmark-check">Iconic design</li>
+                <li class="bi-bookmark-check">Prestige and exclusivity</li>
+                <li class="bi-bookmark-check">Cutting-edge technology</li>
+                <li class="bi-bookmark-check">Premium customization</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<!-- testemunhas -->
+<div id="testemunhas" class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h3 class="main-title mt-5 pb-5">Customer Testimonials</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="testemunha">
+                <p>"At Lamborghini, I found the perfect fusion between power, elegance and performance. Every curve, every acceleration, is an expression of excellence that goes beyond limits."</p>
+                <p><strong>Cristiano Ronaldo</strong></p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="testemunha">
+                <p>"Driving a Lamborghini is like creating a moving masterpiece - an explosion of style, speed and luxury that elevates every moment to greatness."</p>
+                <p><strong>Kanye West</strong></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- rodape -->
+<div id="footer_content">
+    <div id="footer_contacts">
+        <img src="./img/lambo-icon.jpg" alt="Logo da Lamborghini" id="lambo-icon" style="width: auto; height: 10em;">
+        <p>It's all about your dreams.</p>
+
+        <div id="footer_social_media">
+            <a href="https://www.instagram.com/lamborghini/" class="footer-link" id="instagram" target="_blank">
+                <i class="bi-instagram"></i>
+            </a>
+
+            <a href="#" class="footer-link" id="facebook">
+                <i class="bi-facebook"></i>
+            </a>
+
+            <a href="#" class="footer-link" id="whatsapp">
+                <i class="bi-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+    
+    <ul class="footer-list">
+        <li>
+            <h3>Blog</h3>
+        </li>
+        <li>
+            <a href="#" class="footer-link">Performance</a>
+        </li>
+        <li>
+            <a href="#" class="footer-link">Lux</a>
+        </li>
+        <li>
+            <a href="#" class="footer-link">Exclusivity</a>
+        </li>
+    </ul>
+
+    <ul class="footer-list">
+        <li>
+            <h3>Products</h3>
+        </li>
+        <li>
+            <a href="#" class="footer-link">Cars</a>
+        </li>
+        <li>
+            <a href="#" class="footer-link">Customization</a>
+        </li>
+        <li>
+            <a href="#" class="footer-link">Iagarant Insurance</a>
+        </li>
+    </ul>
+
+    <div id="footer_subscribe">
+        <h3>Subscribe</h3>
+
+        <p>
+            Enter your email to receive notifications about our new Lamborghini solutions.
+        </p>
+
+        <div id="input_group">
+            <input type="email" id="email" placeholder="Your email">
+            <button>
+                <i class="bi-envelope-check text-dark"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div id="footer_copyright">
+    &#169;
+    2024 made by Yuri Borges Martins, student at Senai
+</div>
+<div id="footer_copyright">
+    &#169;
+    2024 all rights reserved for Lamborghini
+</div>
+</body>
+    
+ </html>
